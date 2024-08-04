@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+:root{
+    --main-color: #ff9900;
+    --sec-color: tomato;
+    --color3: #00eeff;
+    --color4: #ff910079;
+}
+
+.body{
+    width: 100vw;
+    height: 100vh;
+    background-color:var(--color3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+    width: 60vh;
+    height: 80vh;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.288);
+}
+.form-design
+{
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+.overlay1
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color4);
+    border-radius: 0 0 50% 50%;
+}
+
+.overlay2
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    background-color: var(--main-color);
+    border-radius: 0 0 50% 50%;
+}
+.details
+{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.details .icon
+{
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 50px;
+}
+.details h3
+{
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+}
+form
+{
+    width: 100%;
+    padding: 50px;
+}
+form label
+{
+    margin: 10px;
+}
+form input
+{
+    width: 100%;
+    height: 40px;
+}
+form p
+{
+    font-weight: 600;
+    color: #0066da;
+}
+form textarea
+{
+    width: 100%;
+    resize: none;
+    min-height: 200px;
+}
+form button
+{
+    height: 45px;
+    width: 100%;
+    background-color: #0066da;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+}
+.result
+{
+    text-align: center;
+    font-weight: 700;
+}
